@@ -1,0 +1,1092 @@
+{
+  "report_metadata": {
+    "generated_at": "2025-09-06T01:52:26.071050",
+    "report_version": "1.0.0",
+    "generator": "File Organization System - System Analyzer"
+  },
+  "analysis_results": {
+    "analysis_metadata": {
+      "timestamp": "2025-09-06T01:52:23.025354",
+      "target_path": "/home/runner/work/X-v-deossss/X-v-deossss",
+      "depth": "comprehensive",
+      "analyzer_version": "1.0.0"
+    },
+    "hardware": {
+      "cpu": {
+        "physical_cores": 2,
+        "logical_cores": 4,
+        "architecture": "64bit",
+        "processor": "x86_64",
+        "frequency": {
+          "current": 2924.3419999999996,
+          "min": 0.0,
+          "max": 0.0
+        },
+        "usage_per_core": [
+          1.0,
+          1.0,
+          0.0,
+          2.0
+        ]
+      },
+      "memory": {
+        "total_gb": 15.62,
+        "available_gb": 14.18,
+        "used_gb": 1.09,
+        "percentage_used": 9.2,
+        "swap": {
+          "total_gb": 4.0,
+          "used_gb": 0.0,
+          "percentage_used": 0.0
+        }
+      },
+      "storage": {
+        "drives": [
+          {
+            "device": "/dev/sda1",
+            "mountpoint": "/",
+            "file_system": "ext4",
+            "total_gb": 71.61,
+            "used_gb": 45.62,
+            "free_gb": 25.97,
+            "percentage_used": 63.71
+          },
+          {
+            "device": "/dev/sda16",
+            "mountpoint": "/boot",
+            "file_system": "ext4",
+            "total_gb": 0.86,
+            "used_gb": 0.06,
+            "free_gb": 0.74,
+            "percentage_used": 6.73
+          },
+          {
+            "device": "/dev/sda15",
+            "mountpoint": "/boot/efi",
+            "file_system": "vfat",
+            "total_gb": 0.1,
+            "used_gb": 0.01,
+            "free_gb": 0.1,
+            "percentage_used": 5.85
+          },
+          {
+            "device": "/dev/sdb1",
+            "mountpoint": "/mnt",
+            "file_system": "ext4",
+            "total_gb": 73.27,
+            "used_gb": 4.0,
+            "free_gb": 65.5,
+            "percentage_used": 5.46
+          }
+        ],
+        "io_stats": {
+          "read_count": 17748,
+          "write_count": 7077,
+          "read_bytes": 966374912,
+          "write_bytes": 1262982656,
+          "read_time": 36379,
+          "write_time": 48336,
+          "read_merged_count": 7953,
+          "write_merged_count": 32504,
+          "busy_time": 17093
+        }
+      },
+      "network": {
+        "interfaces": {
+          "lo": [
+            {
+              "family": "AF_INET",
+              "address": "127.0.0.1",
+              "netmask": "255.0.0.0",
+              "broadcast": null
+            },
+            {
+              "family": "AF_INET6",
+              "address": "::1",
+              "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+              "broadcast": null
+            },
+            {
+              "family": "AF_PACKET",
+              "address": "00:00:00:00:00:00",
+              "netmask": null,
+              "broadcast": null
+            }
+          ],
+          "eth0": [
+            {
+              "family": "AF_INET",
+              "address": "10.1.0.213",
+              "netmask": "255.255.240.0",
+              "broadcast": "10.1.15.255"
+            },
+            {
+              "family": "AF_INET6",
+              "address": "fe80::7e1e:52ff:fe18:df4%eth0",
+              "netmask": "ffff:ffff:ffff:ffff::",
+              "broadcast": null
+            },
+            {
+              "family": "AF_PACKET",
+              "address": "7c:1e:52:18:0d:f4",
+              "netmask": null,
+              "broadcast": "ff:ff:ff:ff:ff:ff"
+            }
+          ],
+          "docker0": [
+            {
+              "family": "AF_INET",
+              "address": "172.17.0.1",
+              "netmask": "255.255.0.0",
+              "broadcast": "172.17.255.255"
+            },
+            {
+              "family": "AF_PACKET",
+              "address": "0e:02:fb:c8:54:1a",
+              "netmask": null,
+              "broadcast": "ff:ff:ff:ff:ff:ff"
+            }
+          ]
+        },
+        "io_stats": {
+          "bytes_sent": 47578033,
+          "bytes_recv": 144319550,
+          "packets_sent": 38819,
+          "packets_recv": 113350,
+          "errin": 0,
+          "errout": 0,
+          "dropin": 0,
+          "dropout": 2
+        }
+      },
+      "sensors": {},
+      "boot_time": "2025-09-06T01:37:41"
+    },
+    "software": {
+      "operating_system": {
+        "system": "Linux",
+        "release": "6.11.0-1018-azure",
+        "version": "#18~24.04.1-Ubuntu SMP Sat Jun 28 04:46:03 UTC 2025",
+        "machine": "x86_64",
+        "platform": "Linux-6.11.0-1018-azure-x86_64-with-glibc2.39",
+        "node": "pkrvm7jw40e0xgp"
+      },
+      "python_environment": {
+        "version": "3.12.3",
+        "implementation": "CPython",
+        "executable": "/usr/bin/python",
+        "path": [
+          "/home/runner/work/X-v-deossss/X-v-deossss",
+          "/home/runner/work/X-v-deossss/X-v-deossss",
+          "/usr/lib/python312.zip",
+          "/usr/lib/python3.12",
+          "/usr/lib/python3.12/lib-dynload"
+        ]
+      },
+      "processes": {
+        "total_count": 182,
+        "top_processes": [
+          {
+            "memory_percent": 0.08410527518835773,
+            "cpu_percent": 0.0,
+            "pid": 1,
+            "name": "systemd"
+          },
+          {
+            "memory_percent": 0.0,
+            "cpu_percent": 0.0,
+            "pid": 2,
+            "name": "kthreadd"
+          },
+          {
+            "memory_percent": 0.0,
+            "cpu_percent": 0.0,
+            "pid": 3,
+            "name": "pool_workqueue_release"
+          },
+          {
+            "memory_percent": 0.0,
+            "cpu_percent": 0.0,
+            "pid": 4,
+            "name": "kworker/R-rcu_gp"
+          },
+          {
+            "memory_percent": 0.0,
+            "cpu_percent": 0.0,
+            "pid": 5,
+            "name": "kworker/R-sync_wq"
+          },
+          {
+            "memory_percent": 0.0,
+            "cpu_percent": 0.0,
+            "pid": 6,
+            "name": "kworker/R-slub_flushwq"
+          },
+          {
+            "memory_percent": 0.0,
+            "cpu_percent": 0.0,
+            "pid": 7,
+            "name": "kworker/R-netns"
+          },
+          {
+            "memory_percent": 0.0,
+            "cpu_percent": 0.0,
+            "pid": 8,
+            "name": "kworker/0:0-mm_percpu_wq"
+          },
+          {
+            "memory_percent": 0.0,
+            "cpu_percent": 0.0,
+            "pid": 9,
+            "name": "kworker/0:1-cgroup_destroy"
+          },
+          {
+            "memory_percent": 0.0,
+            "cpu_percent": 0.0,
+            "pid": 10,
+            "name": "kworker/0:0H-events_highpri"
+          },
+          {
+            "memory_percent": 0.0,
+            "cpu_percent": 0.0,
+            "pid": 11,
+            "name": "kworker/u16:0-events_unbound"
+          },
+          {
+            "memory_percent": 0.0,
+            "cpu_percent": 0.0,
+            "pid": 12,
+            "name": "kworker/R-mm_percpu_wq"
+          },
+          {
+            "memory_percent": 0.0,
+            "cpu_percent": 0.0,
+            "pid": 13,
+            "name": "rcu_tasks_rude_kthread"
+          },
+          {
+            "memory_percent": 0.0,
+            "cpu_percent": 0.0,
+            "pid": 14,
+            "name": "rcu_tasks_trace_kthread"
+          },
+          {
+            "memory_percent": 0.0,
+            "cpu_percent": 0.0,
+            "pid": 15,
+            "name": "ksoftirqd/0"
+          },
+          {
+            "memory_percent": 0.0,
+            "cpu_percent": 0.0,
+            "pid": 16,
+            "name": "rcu_sched"
+          },
+          {
+            "memory_percent": 0.0,
+            "cpu_percent": 0.0,
+            "pid": 17,
+            "name": "rcu_exp_par_gp_kthread_worker/0"
+          },
+          {
+            "memory_percent": 0.0,
+            "cpu_percent": 0.0,
+            "pid": 18,
+            "name": "rcu_exp_gp_kthread_worker"
+          },
+          {
+            "memory_percent": 0.0,
+            "cpu_percent": 0.0,
+            "pid": 19,
+            "name": "migration/0"
+          },
+          {
+            "memory_percent": 0.0,
+            "cpu_percent": 0.0,
+            "pid": 20,
+            "name": "idle_inject/0"
+          }
+        ]
+      },
+      "services": {
+        "supported": false,
+        "note": "Service enumeration not supported on this platform"
+      },
+      "environment_variables": {
+        "count": 151
+      }
+    },
+    "file_system": {
+      "target_info": {
+        "path": "/home/runner/work/X-v-deossss/X-v-deossss",
+        "exists": true,
+        "is_directory": true,
+        "permissions": "755"
+      },
+      "disk_usage": {
+        "total_gb": 71.61,
+        "used_gb": 45.62,
+        "free_gb": 25.97,
+        "percentage_used": 63.71
+      },
+      "directory_structure": {
+        "total_directories": 30,
+        "total_files": 60,
+        "max_depth": 5,
+        "directory_tree": {
+          "type": "directory",
+          "size_bytes": 563667,
+          "file_count": 4,
+          "subdirectory_count": 3,
+          "children": {
+            "README.md": {
+              "type": "file",
+              "size_bytes": 212,
+              "extension": ".md"
+            },
+            "requirements.txt": {
+              "type": "file",
+              "size_bytes": 167,
+              "extension": ".txt"
+            },
+            ".git": {
+              "type": "directory",
+              "size_bytes": 30498,
+              "file_count": 6,
+              "subdirectory_count": 5,
+              "children": {
+                "refs": {
+                  "type": "directory",
+                  "size_bytes": 41,
+                  "file_count": 0,
+                  "subdirectory_count": 3,
+                  "children": {
+                    "tags": {
+                      "type": "directory",
+                      "size_bytes": 0,
+                      "file_count": 0,
+                      "subdirectory_count": 0,
+                      "children": {}
+                    },
+                    "remotes": {
+                      "type": "directory",
+                      "size_bytes": 0,
+                      "file_count": 0,
+                      "subdirectory_count": 0,
+                      "children": {}
+                    },
+                    "heads": {
+                      "type": "directory",
+                      "size_bytes": 41,
+                      "file_count": 0,
+                      "subdirectory_count": 1,
+                      "children": {
+                        "copilot": {
+                          "type": "directory",
+                          "size_bytes": 41,
+                          "file_count": 1,
+                          "subdirectory_count": 0,
+                          "children": {
+                            "fix-b4e4909a-7042-493b-8172-fc7ac45f6a13": {
+                              "type": "file",
+                              "size_bytes": 41,
+                              "extension": ""
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "objects": {
+                  "type": "directory",
+                  "size_bytes": 2488,
+                  "file_count": 0,
+                  "subdirectory_count": 2,
+                  "children": {
+                    "pack": {
+                      "type": "directory",
+                      "size_bytes": 2488,
+                      "file_count": 3,
+                      "subdirectory_count": 0,
+                      "children": {
+                        "pack-19a72fb7c3be6aec9cec30ae103618979fe9acbd.pack": {
+                          "type": "file",
+                          "size_bytes": 1236,
+                          "extension": ".pack"
+                        },
+                        "pack-19a72fb7c3be6aec9cec30ae103618979fe9acbd.rev": {
+                          "type": "file",
+                          "size_bytes": 68,
+                          "extension": ".rev"
+                        },
+                        "pack-19a72fb7c3be6aec9cec30ae103618979fe9acbd.idx": {
+                          "type": "file",
+                          "size_bytes": 1184,
+                          "extension": ".idx"
+                        }
+                      }
+                    },
+                    "info": {
+                      "type": "directory",
+                      "size_bytes": 0,
+                      "file_count": 0,
+                      "subdirectory_count": 0,
+                      "children": {}
+                    }
+                  }
+                },
+                "description": {
+                  "type": "file",
+                  "size_bytes": 73,
+                  "extension": ""
+                },
+                "shallow": {
+                  "type": "file",
+                  "size_bytes": 41,
+                  "extension": ""
+                },
+                "HEAD": {
+                  "type": "file",
+                  "size_bytes": 65,
+                  "extension": ""
+                },
+                "config": {
+                  "type": "file",
+                  "size_bytes": 688,
+                  "extension": ""
+                },
+                "logs": {
+                  "type": "directory",
+                  "size_bytes": 742,
+                  "file_count": 1,
+                  "subdirectory_count": 1,
+                  "children": {
+                    "refs": {
+                      "type": "directory",
+                      "size_bytes": 226,
+                      "file_count": 0,
+                      "subdirectory_count": 1,
+                      "children": {
+                        "heads": {
+                          "type": "directory",
+                          "size_bytes": 226,
+                          "file_count": 0,
+                          "subdirectory_count": 1,
+                          "children": {
+                            "copilot": {
+                              "type": "directory",
+                              "size_bytes": 226,
+                              "file_count": 1,
+                              "subdirectory_count": 0,
+                              "children": {
+                                "fix-b4e4909a-7042-493b-8172-fc7ac45f6a13": {
+                                  "type": "file",
+                                  "size_bytes": 226,
+                                  "extension": ""
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "HEAD": {
+                      "type": "file",
+                      "size_bytes": 516,
+                      "extension": ""
+                    }
+                  }
+                },
+                "hooks": {
+                  "type": "directory",
+                  "size_bytes": 25827,
+                  "file_count": 14,
+                  "subdirectory_count": 0,
+                  "children": {
+                    "fsmonitor-watchman.sample": {
+                      "type": "file",
+                      "size_bytes": 4726,
+                      "extension": ".sample"
+                    },
+                    "pre-push.sample": {
+                      "type": "file",
+                      "size_bytes": 1374,
+                      "extension": ".sample"
+                    },
+                    "update.sample": {
+                      "type": "file",
+                      "size_bytes": 3650,
+                      "extension": ".sample"
+                    },
+                    "pre-merge-commit.sample": {
+                      "type": "file",
+                      "size_bytes": 416,
+                      "extension": ".sample"
+                    },
+                    "push-to-checkout.sample": {
+                      "type": "file",
+                      "size_bytes": 2783,
+                      "extension": ".sample"
+                    },
+                    "pre-commit.sample": {
+                      "type": "file",
+                      "size_bytes": 1649,
+                      "extension": ".sample"
+                    },
+                    "sendemail-validate.sample": {
+                      "type": "file",
+                      "size_bytes": 2308,
+                      "extension": ".sample"
+                    },
+                    "prepare-commit-msg.sample": {
+                      "type": "file",
+                      "size_bytes": 1492,
+                      "extension": ".sample"
+                    },
+                    "pre-rebase.sample": {
+                      "type": "file",
+                      "size_bytes": 4898,
+                      "extension": ".sample"
+                    },
+                    "commit-msg.sample": {
+                      "type": "file",
+                      "size_bytes": 896,
+                      "extension": ".sample"
+                    },
+                    "applypatch-msg.sample": {
+                      "type": "file",
+                      "size_bytes": 478,
+                      "extension": ".sample"
+                    },
+                    "pre-receive.sample": {
+                      "type": "file",
+                      "size_bytes": 544,
+                      "extension": ".sample"
+                    },
+                    "pre-applypatch.sample": {
+                      "type": "file",
+                      "size_bytes": 424,
+                      "extension": ".sample"
+                    },
+                    "post-update.sample": {
+                      "type": "file",
+                      "size_bytes": 189,
+                      "extension": ".sample"
+                    }
+                  }
+                },
+                "index": {
+                  "type": "file",
+                  "size_bytes": 137,
+                  "extension": ""
+                },
+                "packed-refs": {
+                  "type": "file",
+                  "size_bytes": 156,
+                  "extension": ""
+                },
+                "info": {
+                  "type": "directory",
+                  "size_bytes": 240,
+                  "file_count": 1,
+                  "subdirectory_count": 0,
+                  "children": {
+                    "exclude": {
+                      "type": "file",
+                      "size_bytes": 240,
+                      "extension": ""
+                    }
+                  }
+                }
+              }
+            },
+            "main.py": {
+              "type": "file",
+              "size_bytes": 7562,
+              "extension": ".py"
+            },
+            "file_org_system": {
+              "type": "directory",
+              "size_bytes": 510252,
+              "file_count": 1,
+              "subdirectory_count": 7,
+              "children": {
+                "utils": {
+                  "type": "directory",
+                  "size_bytes": 27433,
+                  "file_count": 3,
+                  "subdirectory_count": 1,
+                  "children": {
+                    "logger.py": {
+                      "type": "file",
+                      "size_bytes": 3015,
+                      "extension": ".py"
+                    },
+                    "__init__.py": {
+                      "type": "file",
+                      "size_bytes": 5250,
+                      "extension": ".py"
+                    },
+                    "config_loader.py": {
+                      "type": "file",
+                      "size_bytes": 5250,
+                      "extension": ".py"
+                    },
+                    "__pycache__": {
+                      "type": "directory",
+                      "size_bytes": 13918,
+                      "file_count": 3,
+                      "subdirectory_count": 0,
+                      "children": {
+                        "__init__.cpython-312.pyc": {
+                          "type": "file",
+                          "size_bytes": 5078,
+                          "extension": ".pyc"
+                        },
+                        "logger.cpython-312.pyc": {
+                          "type": "file",
+                          "size_bytes": 3757,
+                          "extension": ".pyc"
+                        },
+                        "config_loader.cpython-312.pyc": {
+                          "type": "file",
+                          "size_bytes": 5083,
+                          "extension": ".pyc"
+                        }
+                      }
+                    }
+                  }
+                },
+                "cloud": {
+                  "type": "directory",
+                  "size_bytes": 109702,
+                  "file_count": 2,
+                  "subdirectory_count": 1,
+                  "children": {
+                    "cloud_integrator.py": {
+                      "type": "file",
+                      "size_bytes": 26033,
+                      "extension": ".py"
+                    },
+                    "__init__.py": {
+                      "type": "file",
+                      "size_bytes": 26033,
+                      "extension": ".py"
+                    },
+                    "__pycache__": {
+                      "type": "directory",
+                      "size_bytes": 57636,
+                      "file_count": 2,
+                      "subdirectory_count": 0,
+                      "children": {
+                        "__init__.cpython-312.pyc": {
+                          "type": "file",
+                          "size_bytes": 28814,
+                          "extension": ".pyc"
+                        },
+                        "cloud_integrator.cpython-312.pyc": {
+                          "type": "file",
+                          "size_bytes": 28822,
+                          "extension": ".pyc"
+                        }
+                      }
+                    }
+                  }
+                },
+                "layouts": {
+                  "type": "directory",
+                  "size_bytes": 90342,
+                  "file_count": 2,
+                  "subdirectory_count": 1,
+                  "children": {
+                    "__init__.py": {
+                      "type": "file",
+                      "size_bytes": 22590,
+                      "extension": ".py"
+                    },
+                    "layout_manager.py": {
+                      "type": "file",
+                      "size_bytes": 22590,
+                      "extension": ".py"
+                    },
+                    "__pycache__": {
+                      "type": "directory",
+                      "size_bytes": 45162,
+                      "file_count": 2,
+                      "subdirectory_count": 0,
+                      "children": {
+                        "layout_manager.cpython-312.pyc": {
+                          "type": "file",
+                          "size_bytes": 22584,
+                          "extension": ".pyc"
+                        },
+                        "__init__.cpython-312.pyc": {
+                          "type": "file",
+                          "size_bytes": 22578,
+                          "extension": ".pyc"
+                        }
+                      }
+                    }
+                  }
+                },
+                "__init__.py": {
+                  "type": "file",
+                  "size_bytes": 726,
+                  "extension": ".py"
+                },
+                "analyzers": {
+                  "type": "directory",
+                  "size_bytes": 136257,
+                  "file_count": 2,
+                  "subdirectory_count": 1,
+                  "children": {
+                    "__init__.py": {
+                      "type": "file",
+                      "size_bytes": 33379,
+                      "extension": ".py"
+                    },
+                    "system_analyzer.py": {
+                      "type": "file",
+                      "size_bytes": 32118,
+                      "extension": ".py"
+                    },
+                    "__pycache__": {
+                      "type": "directory",
+                      "size_bytes": 70760,
+                      "file_count": 2,
+                      "subdirectory_count": 0,
+                      "children": {
+                        "__init__.cpython-312.pyc": {
+                          "type": "file",
+                          "size_bytes": 35885,
+                          "extension": ".pyc"
+                        },
+                        "system_analyzer.cpython-312.pyc": {
+                          "type": "file",
+                          "size_bytes": 34875,
+                          "extension": ".pyc"
+                        }
+                      }
+                    }
+                  }
+                },
+                "core": {
+                  "type": "directory",
+                  "size_bytes": 49905,
+                  "file_count": 2,
+                  "subdirectory_count": 1,
+                  "children": {
+                    "main_controller.py": {
+                      "type": "file",
+                      "size_bytes": 12304,
+                      "extension": ".py"
+                    },
+                    "__init__.py": {
+                      "type": "file",
+                      "size_bytes": 12304,
+                      "extension": ".py"
+                    },
+                    "__pycache__": {
+                      "type": "directory",
+                      "size_bytes": 25297,
+                      "file_count": 2,
+                      "subdirectory_count": 0,
+                      "children": {
+                        "__init__.cpython-312.pyc": {
+                          "type": "file",
+                          "size_bytes": 12645,
+                          "extension": ".pyc"
+                        },
+                        "main_controller.cpython-312.pyc": {
+                          "type": "file",
+                          "size_bytes": 12652,
+                          "extension": ".pyc"
+                        }
+                      }
+                    }
+                  }
+                },
+                "organizers": {
+                  "type": "directory",
+                  "size_bytes": 94979,
+                  "file_count": 2,
+                  "subdirectory_count": 1,
+                  "children": {
+                    "__init__.py": {
+                      "type": "file",
+                      "size_bytes": 25266,
+                      "extension": ".py"
+                    },
+                    "file_organizer.py": {
+                      "type": "file",
+                      "size_bytes": 21710,
+                      "extension": ".py"
+                    },
+                    "__pycache__": {
+                      "type": "directory",
+                      "size_bytes": 48003,
+                      "file_count": 2,
+                      "subdirectory_count": 0,
+                      "children": {
+                        "__init__.cpython-312.pyc": {
+                          "type": "file",
+                          "size_bytes": 25966,
+                          "extension": ".pyc"
+                        },
+                        "file_organizer.cpython-312.pyc": {
+                          "type": "file",
+                          "size_bytes": 22037,
+                          "extension": ".pyc"
+                        }
+                      }
+                    }
+                  }
+                },
+                "__pycache__": {
+                  "type": "directory",
+                  "size_bytes": 908,
+                  "file_count": 1,
+                  "subdirectory_count": 0,
+                  "children": {
+                    "__init__.cpython-312.pyc": {
+                      "type": "file",
+                      "size_bytes": 908,
+                      "extension": ".pyc"
+                    }
+                  }
+                }
+              }
+            },
+            "logs": {
+              "type": "directory",
+              "size_bytes": 13578,
+              "file_count": 1,
+              "subdirectory_count": 0,
+              "children": {
+                "file_org_system_20250906.log": {
+                  "type": "file",
+                  "size_bytes": 13578,
+                  "extension": ".log"
+                }
+              }
+            },
+            "config.yaml": {
+              "type": "file",
+              "size_bytes": 1398,
+              "extension": ".yaml"
+            }
+          }
+        }
+      },
+      "file_analysis": {
+        "file_types": {
+          ".md": {
+            "count": 1,
+            "total_size": 212
+          },
+          ".txt": {
+            "count": 1,
+            "total_size": 167
+          },
+          ".py": {
+            "count": 15,
+            "total_size": 256130
+          },
+          ".yaml": {
+            "count": 1,
+            "total_size": 1398
+          },
+          ".log": {
+            "count": 1,
+            "total_size": 13578
+          },
+          ".sample": {
+            "count": 14,
+            "total_size": 25827
+          },
+          ".pack": {
+            "count": 1,
+            "total_size": 1236
+          },
+          ".rev": {
+            "count": 1,
+            "total_size": 68
+          },
+          ".idx": {
+            "count": 1,
+            "total_size": 1184
+          },
+          ".pyc": {
+            "count": 14,
+            "total_size": 261684
+          }
+        },
+        "size_distribution": {
+          "small": 60,
+          "medium": 0,
+          "large": 0,
+          "huge": 0
+        },
+        "total_size_bytes": 563667,
+        "file_count": 60
+      },
+      "organization_issues": [],
+      "duplicate_files": {
+        "by_size": {
+          "41_bytes": [
+            ".git/shallow",
+            ".git/refs/heads/copilot/fix-b4e4909a-7042-493b-8172-fc7ac45f6a13"
+          ],
+          "5250_bytes": [
+            "file_org_system/utils/__init__.py",
+            "file_org_system/utils/config_loader.py"
+          ],
+          "26033_bytes": [
+            "file_org_system/cloud/cloud_integrator.py",
+            "file_org_system/cloud/__init__.py"
+          ],
+          "22590_bytes": [
+            "file_org_system/layouts/__init__.py",
+            "file_org_system/layouts/layout_manager.py"
+          ],
+          "12304_bytes": [
+            "file_org_system/core/main_controller.py",
+            "file_org_system/core/__init__.py"
+          ]
+        },
+        "by_name": {
+          "HEAD": [
+            ".git/HEAD",
+            ".git/logs/HEAD"
+          ],
+          "__init__.py": [
+            "file_org_system/__init__.py",
+            "file_org_system/utils/__init__.py",
+            "file_org_system/cloud/__init__.py",
+            "file_org_system/layouts/__init__.py",
+            "file_org_system/analyzers/__init__.py",
+            "file_org_system/core/__init__.py",
+            "file_org_system/organizers/__init__.py"
+          ],
+          "fix-b4e4909a-7042-493b-8172-fc7ac45f6a13": [
+            ".git/refs/heads/copilot/fix-b4e4909a-7042-493b-8172-fc7ac45f6a13",
+            ".git/logs/refs/heads/copilot/fix-b4e4909a-7042-493b-8172-fc7ac45f6a13"
+          ],
+          "__init__.cpython-312.pyc": [
+            "file_org_system/__pycache__/__init__.cpython-312.pyc",
+            "file_org_system/utils/__pycache__/__init__.cpython-312.pyc",
+            "file_org_system/cloud/__pycache__/__init__.cpython-312.pyc",
+            "file_org_system/layouts/__pycache__/__init__.cpython-312.pyc",
+            "file_org_system/analyzers/__pycache__/__init__.cpython-312.pyc",
+            "file_org_system/core/__pycache__/__init__.cpython-312.pyc",
+            "file_org_system/organizers/__pycache__/__init__.cpython-312.pyc"
+          ]
+        },
+        "total_potential_duplicates": 9
+      },
+      "large_files": [],
+      "file_age_analysis": {
+        "very_old": 0,
+        "old": 0,
+        "recent": 0,
+        "very_recent": 60,
+        "oldest_file": {
+          "path": ".git/description",
+          "date": "2025-09-06T01:38:36.969952"
+        },
+        "newest_file": {
+          "path": "logs/file_org_system_20250906.log",
+          "date": "2025-09-06T01:52:24.057914"
+        }
+      }
+    },
+    "performance": {
+      "cpu_usage": 0.2,
+      "memory_usage": {
+        "total": 16772579328,
+        "available": 15221383168,
+        "percent": 9.2,
+        "used": 1173528576,
+        "free": 13340004352,
+        "active": 1458782208,
+        "inactive": 1526251520,
+        "buffers": 75345920,
+        "cached": 2183700480,
+        "shared": 48771072,
+        "slab": 181850112
+      },
+      "disk_io": {
+        "read_count": 17748,
+        "write_count": 7077,
+        "read_bytes": 966374912,
+        "write_bytes": 1262982656,
+        "read_time": 36379,
+        "write_time": 48336,
+        "read_merged_count": 7953,
+        "write_merged_count": 32504,
+        "busy_time": 17093
+      },
+      "cpu_per_core": [
+        0.0,
+        0.0,
+        0.0,
+        5.1
+      ],
+      "memory_detailed": {
+        "total": 16772579328,
+        "available": 15221383168,
+        "percent": 9.2,
+        "used": 1173528576,
+        "free": 13340004352,
+        "active": 1458966528,
+        "inactive": 1526251520,
+        "buffers": 75345920,
+        "cached": 2183700480,
+        "shared": 48771072,
+        "slab": 181850112
+      },
+      "swap_usage": {
+        "total": 4294963200,
+        "used": 0,
+        "free": 4294963200,
+        "percent": 0.0,
+        "sin": 0,
+        "sout": 0
+      },
+      "network_io": {
+        "bytes_sent": 47584656,
+        "bytes_recv": 144323347,
+        "packets_sent": 38838,
+        "packets_recv": 113365,
+        "errin": 0,
+        "errout": 0,
+        "dropin": 0,
+        "dropout": 2
+      },
+      "load_average": [
+        0.2724609375,
+        0.0986328125,
+        0.033203125
+      ],
+      "cpu_freq": {
+        "current": 2579.1245,
+        "min": 0.0,
+        "max": 0.0
+      }
+    },
+    "analysis_summary": {
+      "start_time": "2025-09-06T01:52:23.025354",
+      "end_time": "2025-09-06T01:52:26.070774",
+      "duration_seconds": 3.04542,
+      "components_analyzed": [
+        "hardware",
+        "software",
+        "file_system",
+        "performance"
+      ],
+      "total_issues_found": 0,
+      "recommendations_generated": 0
+    }
+  }
+}

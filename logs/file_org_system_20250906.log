@@ -1,0 +1,152 @@
+2025-09-06 01:51:50 - file_org_system.analyzers.system_analyzer - INFO - __init__:29 - SystemAnalyzer initialized with depth: comprehensive
+2025-09-06 01:51:50 - file_org_system.analyzers.system_analyzer - INFO - __init__:29 - SystemAnalyzer initialized with depth: comprehensive
+2025-09-06 01:51:50 - file_org_system.organizers.file_organizer - INFO - __init__:30 - FileOrganizer initialized with categorization rules
+2025-09-06 01:51:50 - file_org_system.organizers.file_organizer - INFO - __init__:30 - FileOrganizer initialized with categorization rules
+2025-09-06 01:51:50 - file_org_system.layouts.layout_manager - INFO - __init__:28 - LayoutManager initialized
+2025-09-06 01:51:50 - file_org_system.layouts.layout_manager - INFO - __init__:28 - LayoutManager initialized
+2025-09-06 01:51:50 - file_org_system.cloud.cloud_integrator - INFO - __init__:33 - CloudIntegrator initialized
+2025-09-06 01:51:50 - file_org_system.cloud.cloud_integrator - INFO - __init__:33 - CloudIntegrator initialized
+2025-09-06 01:51:50 - file_org_system.core.main_controller - INFO - __init__:34 - File Organization System Controller initialized
+2025-09-06 01:51:50 - file_org_system.core.main_controller - INFO - __init__:34 - File Organization System Controller initialized
+2025-09-06 01:51:50 - file_org_system.core.main_controller - INFO - analyze_system:49 - Starting system analysis - Path: ., Depth: basic
+2025-09-06 01:51:50 - file_org_system.core.main_controller - INFO - analyze_system:49 - Starting system analysis - Path: ., Depth: basic
+2025-09-06 01:51:50 - file_org_system.analyzers.system_analyzer - INFO - analyze_complete_system:51 - Starting comprehensive system analysis - Target: ., Depth: basic
+2025-09-06 01:51:50 - file_org_system.analyzers.system_analyzer - INFO - analyze_complete_system:51 - Starting comprehensive system analysis - Target: ., Depth: basic
+2025-09-06 01:51:50 - file_org_system.analyzers.system_analyzer - INFO - analyze_complete_system:66 - Performing hardware analysis...
+2025-09-06 01:51:50 - file_org_system.analyzers.system_analyzer - INFO - analyze_complete_system:66 - Performing hardware analysis...
+2025-09-06 01:51:50 - file_org_system.analyzers.system_analyzer - INFO - analyze_complete_system:71 - Performing software analysis...
+2025-09-06 01:51:50 - file_org_system.analyzers.system_analyzer - INFO - analyze_complete_system:71 - Performing software analysis...
+2025-09-06 01:51:50 - file_org_system.analyzers.system_analyzer - INFO - analyze_complete_system:76 - Performing file system analysis...
+2025-09-06 01:51:50 - file_org_system.analyzers.system_analyzer - INFO - analyze_complete_system:76 - Performing file system analysis...
+2025-09-06 01:51:50 - file_org_system.analyzers.system_analyzer - INFO - analyze_complete_system:81 - Performing performance analysis...
+2025-09-06 01:51:50 - file_org_system.analyzers.system_analyzer - INFO - analyze_complete_system:81 - Performing performance analysis...
+2025-09-06 01:51:51 - file_org_system.analyzers.system_analyzer - INFO - analyze_complete_system:97 - System analysis completed successfully in 1.07s
+2025-09-06 01:51:51 - file_org_system.analyzers.system_analyzer - INFO - analyze_complete_system:97 - System analysis completed successfully in 1.07s
+2025-09-06 01:51:51 - file_org_system.core.main_controller - INFO - analyze_system:81 - System analysis completed successfully in 1.07s
+2025-09-06 01:51:51 - file_org_system.core.main_controller - INFO - analyze_system:81 - System analysis completed successfully in 1.07s
+2025-09-06 01:52:09 - file_org_system.analyzers.system_analyzer - INFO - __init__:29 - SystemAnalyzer initialized with depth: comprehensive
+2025-09-06 01:52:09 - file_org_system.analyzers.system_analyzer - INFO - __init__:29 - SystemAnalyzer initialized with depth: comprehensive
+2025-09-06 01:52:09 - file_org_system.organizers.file_organizer - INFO - __init__:30 - FileOrganizer initialized with categorization rules
+2025-09-06 01:52:09 - file_org_system.organizers.file_organizer - INFO - __init__:30 - FileOrganizer initialized with categorization rules
+2025-09-06 01:52:09 - file_org_system.layouts.layout_manager - INFO - __init__:28 - LayoutManager initialized
+2025-09-06 01:52:09 - file_org_system.layouts.layout_manager - INFO - __init__:28 - LayoutManager initialized
+2025-09-06 01:52:09 - file_org_system.cloud.cloud_integrator - INFO - __init__:33 - CloudIntegrator initialized
+2025-09-06 01:52:09 - file_org_system.cloud.cloud_integrator - INFO - __init__:33 - CloudIntegrator initialized
+2025-09-06 01:52:09 - file_org_system.core.main_controller - INFO - __init__:34 - File Organization System Controller initialized
+2025-09-06 01:52:09 - file_org_system.core.main_controller - INFO - __init__:34 - File Organization System Controller initialized
+2025-09-06 01:52:09 - file_org_system.core.main_controller - INFO - organize_files:101 - Starting file organization - Path: ., Apply: False
+2025-09-06 01:52:09 - file_org_system.core.main_controller - INFO - organize_files:101 - Starting file organization - Path: ., Apply: False
+2025-09-06 01:52:09 - file_org_system.organizers.file_organizer - INFO - analyze_and_plan_organization:42 - Analyzing and planning organization for: .
+2025-09-06 01:52:09 - file_org_system.organizers.file_organizer - INFO - analyze_and_plan_organization:42 - Analyzing and planning organization for: .
+2025-09-06 01:52:09 - file_org_system.organizers.file_organizer - INFO - analyze_and_plan_organization:90 - Organization plan created with 71 operations
+2025-09-06 01:52:09 - file_org_system.organizers.file_organizer - INFO - analyze_and_plan_organization:90 - Organization plan created with 71 operations
+2025-09-06 01:52:09 - file_org_system.core.main_controller - INFO - organize_files:128 - Preview mode - 71 suggestions generated
+2025-09-06 01:52:09 - file_org_system.core.main_controller - INFO - organize_files:128 - Preview mode - 71 suggestions generated
+2025-09-06 01:52:09 - file_org_system.core.main_controller - INFO - organize_files:142 - File organization completed in 0.01s
+2025-09-06 01:52:09 - file_org_system.core.main_controller - INFO - organize_files:142 - File organization completed in 0.01s
+2025-09-06 01:52:16 - file_org_system.analyzers.system_analyzer - INFO - __init__:29 - SystemAnalyzer initialized with depth: comprehensive
+2025-09-06 01:52:16 - file_org_system.analyzers.system_analyzer - INFO - __init__:29 - SystemAnalyzer initialized with depth: comprehensive
+2025-09-06 01:52:16 - file_org_system.organizers.file_organizer - INFO - __init__:30 - FileOrganizer initialized with categorization rules
+2025-09-06 01:52:16 - file_org_system.organizers.file_organizer - INFO - __init__:30 - FileOrganizer initialized with categorization rules
+2025-09-06 01:52:16 - file_org_system.layouts.layout_manager - INFO - __init__:28 - LayoutManager initialized
+2025-09-06 01:52:16 - file_org_system.layouts.layout_manager - INFO - __init__:28 - LayoutManager initialized
+2025-09-06 01:52:16 - file_org_system.cloud.cloud_integrator - INFO - __init__:33 - CloudIntegrator initialized
+2025-09-06 01:52:16 - file_org_system.cloud.cloud_integrator - INFO - __init__:33 - CloudIntegrator initialized
+2025-09-06 01:52:16 - file_org_system.core.main_controller - INFO - __init__:34 - File Organization System Controller initialized
+2025-09-06 01:52:16 - file_org_system.core.main_controller - INFO - __init__:34 - File Organization System Controller initialized
+2025-09-06 01:52:16 - file_org_system.core.main_controller - INFO - create_layout:162 - Creating layout - Style: professional, Theme: modern, Apply: False
+2025-09-06 01:52:16 - file_org_system.core.main_controller - INFO - create_layout:162 - Creating layout - Style: professional, Theme: modern, Apply: False
+2025-09-06 01:52:16 - file_org_system.layouts.layout_manager - INFO - generate_layout_config:42 - Generating layout config - Style: professional, Theme: modern
+2025-09-06 01:52:16 - file_org_system.layouts.layout_manager - INFO - generate_layout_config:42 - Generating layout config - Style: professional, Theme: modern
+2025-09-06 01:52:16 - file_org_system.layouts.layout_manager - INFO - create_layout_elements:69 - Creating layout elements
+2025-09-06 01:52:16 - file_org_system.layouts.layout_manager - INFO - create_layout_elements:69 - Creating layout elements
+2025-09-06 01:52:16 - file_org_system.layouts.layout_manager - INFO - _create_folder_icons:270 - Creating folder icon assignments
+2025-09-06 01:52:16 - file_org_system.layouts.layout_manager - INFO - _create_folder_icons:270 - Creating folder icon assignments
+2025-09-06 01:52:16 - file_org_system.layouts.layout_manager - INFO - _create_shortcuts:309 - Creating shortcuts
+2025-09-06 01:52:16 - file_org_system.layouts.layout_manager - INFO - _create_shortcuts:309 - Creating shortcuts
+2025-09-06 01:52:16 - file_org_system.layouts.layout_manager - INFO - _create_thumbnails:348 - Creating thumbnail settings
+2025-09-06 01:52:16 - file_org_system.layouts.layout_manager - INFO - _create_thumbnails:348 - Creating thumbnail settings
+2025-09-06 01:52:16 - file_org_system.layouts.layout_manager - INFO - _create_organization_structure:362 - Creating organization structure
+2025-09-06 01:52:16 - file_org_system.layouts.layout_manager - INFO - _create_organization_structure:362 - Creating organization structure
+2025-09-06 01:52:16 - file_org_system.layouts.layout_manager - INFO - _create_desktop_arrangement:389 - Creating desktop arrangement
+2025-09-06 01:52:16 - file_org_system.layouts.layout_manager - INFO - _create_desktop_arrangement:389 - Creating desktop arrangement
+2025-09-06 01:52:16 - file_org_system.layouts.layout_manager - INFO - _create_style_definitions:409 - Creating style definitions
+2025-09-06 01:52:16 - file_org_system.layouts.layout_manager - INFO - _create_style_definitions:409 - Creating style definitions
+2025-09-06 01:52:16 - file_org_system.core.main_controller - INFO - create_layout:178 - Layout prepared in preview mode
+2025-09-06 01:52:16 - file_org_system.core.main_controller - INFO - create_layout:178 - Layout prepared in preview mode
+2025-09-06 01:52:16 - file_org_system.core.main_controller - INFO - create_layout:192 - Layout creation completed in 0.00s
+2025-09-06 01:52:16 - file_org_system.core.main_controller - INFO - create_layout:192 - Layout creation completed in 0.00s
+2025-09-06 01:52:23 - file_org_system.analyzers.system_analyzer - INFO - __init__:29 - SystemAnalyzer initialized with depth: comprehensive
+2025-09-06 01:52:23 - file_org_system.analyzers.system_analyzer - INFO - __init__:29 - SystemAnalyzer initialized with depth: comprehensive
+2025-09-06 01:52:23 - file_org_system.organizers.file_organizer - INFO - __init__:30 - FileOrganizer initialized with categorization rules
+2025-09-06 01:52:23 - file_org_system.organizers.file_organizer - INFO - __init__:30 - FileOrganizer initialized with categorization rules
+2025-09-06 01:52:23 - file_org_system.layouts.layout_manager - INFO - __init__:28 - LayoutManager initialized
+2025-09-06 01:52:23 - file_org_system.layouts.layout_manager - INFO - __init__:28 - LayoutManager initialized
+2025-09-06 01:52:23 - file_org_system.cloud.cloud_integrator - INFO - __init__:33 - CloudIntegrator initialized
+2025-09-06 01:52:23 - file_org_system.cloud.cloud_integrator - INFO - __init__:33 - CloudIntegrator initialized
+2025-09-06 01:52:23 - file_org_system.core.main_controller - INFO - __init__:34 - File Organization System Controller initialized
+2025-09-06 01:52:23 - file_org_system.core.main_controller - INFO - __init__:34 - File Organization System Controller initialized
+2025-09-06 01:52:23 - file_org_system.core.main_controller - INFO - complete_workflow:267 - Starting complete workflow - Path: ., Apply: False
+2025-09-06 01:52:23 - file_org_system.core.main_controller - INFO - complete_workflow:267 - Starting complete workflow - Path: ., Apply: False
+2025-09-06 01:52:23 - file_org_system.core.main_controller - INFO - complete_workflow:274 - Step 1/4: System Analysis
+2025-09-06 01:52:23 - file_org_system.core.main_controller - INFO - complete_workflow:274 - Step 1/4: System Analysis
+2025-09-06 01:52:23 - file_org_system.core.main_controller - INFO - analyze_system:49 - Starting system analysis - Path: ., Depth: comprehensive
+2025-09-06 01:52:23 - file_org_system.core.main_controller - INFO - analyze_system:49 - Starting system analysis - Path: ., Depth: comprehensive
+2025-09-06 01:52:23 - file_org_system.analyzers.system_analyzer - INFO - analyze_complete_system:51 - Starting comprehensive system analysis - Target: ., Depth: comprehensive
+2025-09-06 01:52:23 - file_org_system.analyzers.system_analyzer - INFO - analyze_complete_system:51 - Starting comprehensive system analysis - Target: ., Depth: comprehensive
+2025-09-06 01:52:23 - file_org_system.analyzers.system_analyzer - INFO - analyze_complete_system:66 - Performing hardware analysis...
+2025-09-06 01:52:23 - file_org_system.analyzers.system_analyzer - INFO - analyze_complete_system:66 - Performing hardware analysis...
+2025-09-06 01:52:24 - file_org_system.analyzers.system_analyzer - INFO - analyze_complete_system:71 - Performing software analysis...
+2025-09-06 01:52:24 - file_org_system.analyzers.system_analyzer - INFO - analyze_complete_system:71 - Performing software analysis...
+2025-09-06 01:52:24 - file_org_system.analyzers.system_analyzer - INFO - analyze_complete_system:76 - Performing file system analysis...
+2025-09-06 01:52:24 - file_org_system.analyzers.system_analyzer - INFO - analyze_complete_system:76 - Performing file system analysis...
+2025-09-06 01:52:24 - file_org_system.analyzers.system_analyzer - INFO - analyze_complete_system:81 - Performing performance analysis...
+2025-09-06 01:52:24 - file_org_system.analyzers.system_analyzer - INFO - analyze_complete_system:81 - Performing performance analysis...
+2025-09-06 01:52:26 - file_org_system.analyzers.system_analyzer - INFO - analyze_complete_system:97 - System analysis completed successfully in 3.05s
+2025-09-06 01:52:26 - file_org_system.analyzers.system_analyzer - INFO - analyze_complete_system:97 - System analysis completed successfully in 3.05s
+2025-09-06 01:52:26 - file_org_system.analyzers.system_analyzer - INFO - generate_analysis_report:789 - Analysis report generated: reports/system_analysis_report_20250906_015226.json
+2025-09-06 01:52:26 - file_org_system.analyzers.system_analyzer - INFO - generate_analysis_report:789 - Analysis report generated: reports/system_analysis_report_20250906_015226.json
+2025-09-06 01:52:26 - file_org_system.core.main_controller - INFO - analyze_system:68 - Analysis report generated: reports/system_analysis_report_20250906_015226.json
+2025-09-06 01:52:26 - file_org_system.core.main_controller - INFO - analyze_system:68 - Analysis report generated: reports/system_analysis_report_20250906_015226.json
+2025-09-06 01:52:26 - file_org_system.core.main_controller - INFO - analyze_system:81 - System analysis completed successfully in 3.05s
+2025-09-06 01:52:26 - file_org_system.core.main_controller - INFO - analyze_system:81 - System analysis completed successfully in 3.05s
+2025-09-06 01:52:26 - file_org_system.core.main_controller - INFO - complete_workflow:279 - Step 2/4: File Organization
+2025-09-06 01:52:26 - file_org_system.core.main_controller - INFO - complete_workflow:279 - Step 2/4: File Organization
+2025-09-06 01:52:26 - file_org_system.core.main_controller - INFO - organize_files:101 - Starting file organization - Path: ., Apply: False
+2025-09-06 01:52:26 - file_org_system.core.main_controller - INFO - organize_files:101 - Starting file organization - Path: ., Apply: False
+2025-09-06 01:52:26 - file_org_system.organizers.file_organizer - INFO - analyze_and_plan_organization:42 - Analyzing and planning organization for: .
+2025-09-06 01:52:26 - file_org_system.organizers.file_organizer - INFO - analyze_and_plan_organization:42 - Analyzing and planning organization for: .
+2025-09-06 01:52:26 - file_org_system.organizers.file_organizer - INFO - analyze_and_plan_organization:90 - Organization plan created with 72 operations
+2025-09-06 01:52:26 - file_org_system.organizers.file_organizer - INFO - analyze_and_plan_organization:90 - Organization plan created with 72 operations
+2025-09-06 01:52:26 - file_org_system.core.main_controller - INFO - organize_files:128 - Preview mode - 72 suggestions generated
+2025-09-06 01:52:26 - file_org_system.core.main_controller - INFO - organize_files:128 - Preview mode - 72 suggestions generated
+2025-09-06 01:52:26 - file_org_system.core.main_controller - INFO - organize_files:142 - File organization completed in 0.01s
+2025-09-06 01:52:26 - file_org_system.core.main_controller - INFO - organize_files:142 - File organization completed in 0.01s
+2025-09-06 01:52:26 - file_org_system.core.main_controller - INFO - complete_workflow:284 - Step 3/4: Layout Creation
+2025-09-06 01:52:26 - file_org_system.core.main_controller - INFO - complete_workflow:284 - Step 3/4: Layout Creation
+2025-09-06 01:52:26 - file_org_system.core.main_controller - INFO - create_layout:162 - Creating layout - Style: professional, Theme: modern, Apply: False
+2025-09-06 01:52:26 - file_org_system.core.main_controller - INFO - create_layout:162 - Creating layout - Style: professional, Theme: modern, Apply: False
+2025-09-06 01:52:26 - file_org_system.layouts.layout_manager - INFO - generate_layout_config:42 - Generating layout config - Style: professional, Theme: modern
+2025-09-06 01:52:26 - file_org_system.layouts.layout_manager - INFO - generate_layout_config:42 - Generating layout config - Style: professional, Theme: modern
+2025-09-06 01:52:26 - file_org_system.layouts.layout_manager - INFO - create_layout_elements:69 - Creating layout elements
+2025-09-06 01:52:26 - file_org_system.layouts.layout_manager - INFO - create_layout_elements:69 - Creating layout elements
+2025-09-06 01:52:26 - file_org_system.layouts.layout_manager - INFO - _create_folder_icons:270 - Creating folder icon assignments
+2025-09-06 01:52:26 - file_org_system.layouts.layout_manager - INFO - _create_folder_icons:270 - Creating folder icon assignments
+2025-09-06 01:52:26 - file_org_system.layouts.layout_manager - INFO - _create_shortcuts:309 - Creating shortcuts
+2025-09-06 01:52:26 - file_org_system.layouts.layout_manager - INFO - _create_shortcuts:309 - Creating shortcuts
+2025-09-06 01:52:26 - file_org_system.layouts.layout_manager - INFO - _create_thumbnails:348 - Creating thumbnail settings
+2025-09-06 01:52:26 - file_org_system.layouts.layout_manager - INFO - _create_thumbnails:348 - Creating thumbnail settings
+2025-09-06 01:52:26 - file_org_system.layouts.layout_manager - INFO - _create_organization_structure:362 - Creating organization structure
+2025-09-06 01:52:26 - file_org_system.layouts.layout_manager - INFO - _create_organization_structure:362 - Creating organization structure
+2025-09-06 01:52:26 - file_org_system.layouts.layout_manager - INFO - _create_desktop_arrangement:389 - Creating desktop arrangement
+2025-09-06 01:52:26 - file_org_system.layouts.layout_manager - INFO - _create_desktop_arrangement:389 - Creating desktop arrangement
+2025-09-06 01:52:26 - file_org_system.layouts.layout_manager - INFO - _create_style_definitions:409 - Creating style definitions
+2025-09-06 01:52:26 - file_org_system.layouts.layout_manager - INFO - _create_style_definitions:409 - Creating style definitions
+2025-09-06 01:52:26 - file_org_system.core.main_controller - INFO - create_layout:178 - Layout prepared in preview mode
+2025-09-06 01:52:26 - file_org_system.core.main_controller - INFO - create_layout:178 - Layout prepared in preview mode
+2025-09-06 01:52:26 - file_org_system.core.main_controller - INFO - create_layout:192 - Layout creation completed in 0.00s
+2025-09-06 01:52:26 - file_org_system.core.main_controller - INFO - create_layout:192 - Layout creation completed in 0.00s
+2025-09-06 01:52:26 - file_org_system.core.main_controller - INFO - complete_workflow:296 - Step 4/4: Cloud Integration - Skipped (no active provider)
+2025-09-06 01:52:26 - file_org_system.core.main_controller - INFO - complete_workflow:296 - Step 4/4: Cloud Integration - Skipped (no active provider)
+2025-09-06 01:52:26 - file_org_system.core.main_controller - INFO - complete_workflow:313 - Complete workflow finished successfully in 3.06s
+2025-09-06 01:52:26 - file_org_system.core.main_controller - INFO - complete_workflow:313 - Complete workflow finished successfully in 3.06s
